@@ -15,11 +15,11 @@ C:/Users/9t.cc/Documents/GithubFiles/Zombie_Runner/Zombie_Runner/Zombie_Runner
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49617
+65007
 Successfully changed project path to: C:/Users/9t.cc/Documents/GithubFiles/Zombie_Runner/Zombie_Runner/Zombie_Runner
 C:/Users/9t.cc/Documents/GithubFiles/Zombie_Runner/Zombie_Runner/Zombie_Runner
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 76.05 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 80.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,197 +35,353 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002367 seconds.
+Registered in 0.002056 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 84.92 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 86.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.332 seconds
+- Completed reload, in  1.273 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003448 seconds.
+Registered in 0.003050 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 81.99 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 79.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.042 seconds
+- Completed reload, in  1.087 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 116.3 MB.
 System memory in use after: 116.4 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3587.
-Total: 2.055600 ms (FindLiveObjects: 0.240200 ms CreateObjectMapping: 0.149800 ms MarkObjects: 1.603400 ms  DeleteObjects: 0.061200 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3588.
+Total: 2.094600 ms (FindLiveObjects: 0.227200 ms CreateObjectMapping: 0.146400 ms MarkObjects: 1.653300 ms  DeleteObjects: 0.066900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/StarterAssets/Mobile
-  artifactKey: Guid(1d9a48e14080daf4794b86b4911eef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Mobile using Guid(1d9a48e14080daf4794b86b4911eef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ade224167f27c3e00b62306779d996a') in 0.005427 seconds 
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.005242 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/StarterAssets/TutorialInfo
-  artifactKey: Guid(45eb5850dfaea0a4f962fbbf3e54daf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/TutorialInfo using Guid(45eb5850dfaea0a4f962fbbf3e54daf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5487c08bd66467a85114ae39acc45b4e') in 0.004248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.831738 seconds.
-  path: Assets/StarterAssets/Editor
-  artifactKey: Guid(577651ee23b1b8342a827136803910fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Editor using Guid(577651ee23b1b8342a827136803910fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c57f420eb03aa2dd7305cfae48794b') in 0.003740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.997308 seconds.
-  path: Assets/StarterAssets/Editor/PackageChecker
-  artifactKey: Guid(14bd68b8c6966124487020c02c9b7f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Editor/PackageChecker using Guid(14bd68b8c6966124487020c02c9b7f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d4a9daae7dc419e12827feda6948d4') in 0.002891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.321183 seconds.
-  path: Assets/StarterAssets/FirstPersonController/Scenes
-  artifactKey: Guid(560d37d8517c937418f56f4db8462f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/FirstPersonController/Scenes using Guid(560d37d8517c937418f56f4db8462f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a333c336af44961ed0f1e50182bab4') in 0.002496 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.125718 seconds.
-  path: Assets/StarterAssets/FirstPersonController/Scenes/Playground
-  artifactKey: Guid(ece444ad7ba310d4c9fa193b1bcfe706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/FirstPersonController/Scenes/Playground using Guid(ece444ad7ba310d4c9fa193b1bcfe706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed705933d5c0b8c57cf58dc73c03c5e') in 0.003022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.961638 seconds.
-  path: Assets/StarterAssets/FirstPersonController/Scenes/Playground.unity
-  artifactKey: Guid(707acc8dffb72b144bb1ffbe1c965f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/FirstPersonController/Scenes/Playground.unity using Guid(707acc8dffb72b144bb1ffbe1c965f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dfe3b35f7cae5869ec1c80c566a029') in 0.009825 seconds 
+  Time since last request: 3.155970 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(15f6f17eeefbf5948a73c122b6f94657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(15f6f17eeefbf5948a73c122b6f94657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d9690420e3093e2e764fe8c83f7a23') in 0.191690 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003493 seconds.
+Registered in 0.002984 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.973 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.2 MB.
+System memory in use after: 116.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3591.
+Total: 2.539400 ms (FindLiveObjects: 0.244100 ms CreateObjectMapping: 0.149200 ms MarkObjects: 2.067800 ms  DeleteObjects: 0.077500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.357309 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(0cad8882345519840a691695daf5ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(0cad8882345519840a691695daf5ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83974053d9c38aec80a25ee63938a9a3') in 0.006798 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003777 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.918 seconds
+- Completed reload, in  0.979 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.1 MB.
-System memory in use after: 116.3 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3590.
-Total: 2.753400 ms (FindLiveObjects: 0.293200 ms CreateObjectMapping: 0.218100 ms MarkObjects: 2.181600 ms  DeleteObjects: 0.058900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003317 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 116.2 MB.
 System memory in use after: 116.4 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3593.
-Total: 1.997000 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.138700 ms MarkObjects: 1.598500 ms  DeleteObjects: 0.039400 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3594.
+Total: 1.953000 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.143300 ms MarkObjects: 1.548100 ms  DeleteObjects: 0.040600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 328.442153 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab
-  artifactKey: Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab using Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51928b4d590f0758343afa5fb49740ea') in 0.110532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.381734 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab
-  artifactKey: Guid(e5f4daf24146ee040b5a2d7a73b30aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab using Guid(e5f4daf24146ee040b5a2d7a73b30aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a170ce809408c7122828ff9713f8348') in 0.013440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.116500 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Box_350x250x300_Prefab.prefab
-  artifactKey: Guid(687dbafc2b84b2846b9a4a7a7dae2a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Prefabs/Box_350x250x300_Prefab.prefab using Guid(687dbafc2b84b2846b9a4a7a7dae2a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e5ec3f73534981d27c929186c9d024') in 0.012293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.446819 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab
-  artifactKey: Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab using Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c20d2a0ca89f3415437339187bf4e48') in 0.015699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.682481 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Ramp_Prefab.prefab
-  artifactKey: Guid(8a7437817844dce4894b049de73b75f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Prefabs/Ramp_Prefab.prefab using Guid(8a7437817844dce4894b049de73b75f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a903027696b20c197b3d0333ae11ed67') in 0.011953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.324771 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Stairs_200x100x200_Prefab.prefab
-  artifactKey: Guid(466621a4836aa504c87c15d88722d465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Prefabs/Stairs_200x100x200_Prefab.prefab using Guid(466621a4836aa504c87c15d88722d465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c9e3f9e1e8846d6372cc99a02320b5') in 0.025820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.322100 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Wall_Prefab.prefab
-  artifactKey: Guid(9eb847ab97b24024588682c8601254cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Prefabs/Wall_Prefab.prefab using Guid(9eb847ab97b24024588682c8601254cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54fa044ad8445ab7fd42726846707df') in 0.037361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.410129 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Stairs_650_400_300_Prefab.prefab
-  artifactKey: Guid(50a0925b0c22af146a2d15615f815a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Prefabs/Stairs_650_400_300_Prefab.prefab using Guid(50a0925b0c22af146a2d15615f815a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77abec3ff98ae0afb4153d9b13ddf66') in 0.014800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.476746 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Structure_Prefab.prefab
-  artifactKey: Guid(79e624e6a8770a946afb866fd94b394b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Prefabs/Structure_Prefab.prefab using Guid(79e624e6a8770a946afb866fd94b394b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd242af9bff918ca5c13cdf7db6f68b9c') in 0.015905 seconds 
+  Time since last request: 26.537136 seconds.
+  path: Assets/Scripts/EnemyAI.cs
+  artifactKey: Guid(73003035077d7f74ba0676a605f5e308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyAI.cs using Guid(73003035077d7f74ba0676a605f5e308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00dd8169b0f03b28eb263bb017a9c65') in 0.007322 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003425 seconds.
+Registered in 0.003066 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.935 seconds
+- Completed reload, in  0.962 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.2 MB.
+System memory in use after: 116.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3597.
+Total: 3.763900 ms (FindLiveObjects: 0.423200 ms CreateObjectMapping: 0.306300 ms MarkObjects: 2.954800 ms  DeleteObjects: 0.077600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 268.877047 seconds.
+  path: Assets/Scripts/EnemyAI.cs
+  artifactKey: Guid(73003035077d7f74ba0676a605f5e308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyAI.cs using Guid(73003035077d7f74ba0676a605f5e308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311d2263f2bf38d4e45c62b66915b335') in 0.006080 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003576 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.985 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3600.
+Total: 2.436700 ms (FindLiveObjects: 0.345100 ms CreateObjectMapping: 0.212400 ms MarkObjects: 1.828500 ms  DeleteObjects: 0.049100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004655 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3603.
+Total: 2.158000 ms (FindLiveObjects: 0.265500 ms CreateObjectMapping: 0.158000 ms MarkObjects: 1.687100 ms  DeleteObjects: 0.046100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003323 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.908 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3606.
+Total: 2.230800 ms (FindLiveObjects: 0.218400 ms CreateObjectMapping: 0.131500 ms MarkObjects: 1.833300 ms  DeleteObjects: 0.046100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003928 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3609.
+Total: 2.026300 ms (FindLiveObjects: 0.222400 ms CreateObjectMapping: 0.133200 ms MarkObjects: 1.625800 ms  DeleteObjects: 0.043800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 670.990554 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(c85c3134936d51c48a96783485857e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(c85c3134936d51c48a96783485857e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abedb50b1638a07f9f54faec109ed504') in 0.006060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.266260 seconds.
+  path: Assets/Materials/Slippery Materail.physicMaterial
+  artifactKey: Guid(a7acea6561fe955439533c13749cffdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Slippery Materail.physicMaterial using Guid(a7acea6561fe955439533c13749cffdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2413fee895e4c846574498004bd5f5a') in 0.036217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.216394 seconds.
+  path: Assets/Materials/Slippery Material.physicMaterial
+  artifactKey: Guid(a7acea6561fe955439533c13749cffdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Slippery Material.physicMaterial using Guid(a7acea6561fe955439533c13749cffdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba909a9c9da0b623425801e91f79325e') in 0.002698 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003041 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3612.
+Total: 2.381700 ms (FindLiveObjects: 0.219500 ms CreateObjectMapping: 0.126700 ms MarkObjects: 1.981600 ms  DeleteObjects: 0.052500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003662 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3615.
+Total: 2.041000 ms (FindLiveObjects: 0.232400 ms CreateObjectMapping: 0.146000 ms MarkObjects: 1.617400 ms  DeleteObjects: 0.044200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 300.209172 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(69125d86c1f350b4683a737e37d219d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(69125d86c1f350b4683a737e37d219d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef11248ff89d328c1e4ce3cffa56730f') in 0.007723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.469705 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(e24f9ff518eca594094048cd548c5ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(e24f9ff518eca594094048cd548c5ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2327441770fc591842f44a0cf83fc2') in 0.091527 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003318 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 120.0 MB.
 System memory in use after: 120.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3605.
-Total: 3.139500 ms (FindLiveObjects: 0.307000 ms CreateObjectMapping: 0.194800 ms MarkObjects: 2.578800 ms  DeleteObjects: 0.057500 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3626.
+Total: 2.743100 ms (FindLiveObjects: 0.380800 ms CreateObjectMapping: 0.125300 ms MarkObjects: 2.174800 ms  DeleteObjects: 0.059800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003545 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\9t.cc\Documents\GithubFiles\Zombie_Runner\Zombie_Runner\Zombie_Runner\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.0 MB.
+System memory in use after: 120.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3629.
+Total: 3.311700 ms (FindLiveObjects: 0.239000 ms CreateObjectMapping: 0.152500 ms MarkObjects: 2.839000 ms  DeleteObjects: 0.078700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
